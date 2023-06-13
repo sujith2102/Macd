@@ -1,0 +1,60 @@
+.form
+{
+margin: auto;
+margin-top: 300px;
+height: 300px;
+width: 500px;
+background-color:rgb(255, 179, 0);
+border-bottom: 20px solid  rgb(218,41,28);
+border-left: 20px solid  rgb(218,41,28);
+border-right: 20px solid  rgb(218,41,28);
+}
+.form label{
+    font-size: 25px;
+    margin-left: 50px;
+}
+.form button{
+    margin-top: 10px;
+    text-align: center;
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+}
+.form input{
+    height: 30px;
+    width: 350px;
+    margin-left: 50px;
+}
+h1{
+    background-color: rgb(218,41,28);;
+}
+body{
+  height: 450px;
+    background-image: url("pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body:hover{
+    animation: movement 4s infinite;
+  }
+  @keyframes movement
+  {
+    0%
+    {
+      background-image: url("pic1.jpg");
+    }
+    25%
+    {
+      background-image: url("pic2.jpg");
+    }
+    50%
+    {
+      background-image: url("pic3.jpg");
+    }
+    75%
+    {
+      
+      background-image: url("pic4.jpg");
+    }
+   
+  }

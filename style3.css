@@ -1,0 +1,34 @@
+.contain
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1
+{
+    font-size: 30px;
+}
+h2
+{
+    font-size: 25px;
+}
+.contain
+{
+    width: 1400px;
+    margin: auto;
+}
+.contai
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.sel
+{
+    display: flex;
+position: sticky;
+top: 0;
+justify-content: space-evenly;
+    background-color: rgb(255, 179, 0);
+    text-decoration: none;
+    font-size: 10px;
+}

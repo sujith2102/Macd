@@ -1,0 +1,90 @@
+.form
+{
+    margin: auto;
+    height: 720px;
+    width: 500px;
+    margin-top: 10px;
+    background-color: rgb(255, 179, 0);
+    border: 5px solid rgb(218,41,28);
+}
+.form label{
+    font-size: 18px;
+    margin-left: 50px;
+}
+.form button{
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 170px;
+}
+.form input{
+    height: 26px;
+    width: 350px;
+    margin-left: 50px;
+}
+#gender
+{
+    margin-left: 50px;
+}
+h1
+{
+    margin: auto;
+    margin-left: 160px;
+}
+.char
+{
+    margin-left: 50px;
+    font-size: 17px;
+    color: gray;
+}
+#check
+{
+  
+   height: 20px;
+}
+#now{
+    height: 50px;
+    width: 130px;
+    background-color:whitesmoke;
+    border: 2px solid black;
+    margin-top: -10px;
+    font-size: 20px;
+    margin-left: 170px;
+    text-decoration: none;
+    color: black;
+}
+#sig
+{
+    font-size: 20px;
+}
+body{
+    height: 740px;
+      background-image: url("pic1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    body:hover{
+      animation: movement 4s infinite;
+    }
+    @keyframes movement
+    {
+      0%
+      {
+        background-image: url("pic1.jpg");
+      }
+      25%
+      {
+        background-image: url("pic2.jpg");
+      }
+      50%
+      {
+        background-image: url("pic3.jpg");
+      }
+      75%
+      {
+        
+        background-image: url("pic4.jpg");
+      }
+    
+    }

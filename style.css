@@ -1,0 +1,155 @@
+.main
+{
+    background-color: antiquewhite;
+    text-align: center;
+  position: sticky;
+  top: 0;
+    position: sticky;
+}
+.sel
+{
+    position: sticky;
+    top: 0;
+    display: flex;
+position: sticky;
+justify-content: space-evenly;
+    background-color: rgb(255, 179, 0);
+    text-decoration: none;
+}
+.menu
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.deals
+{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.rewards
+{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.career
+{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.burger
+{
+    margin-top: 10px;
+}
+.scroll
+{
+  
+    background-color: rgb(218,41,28);
+    margin-bottom: 10px;
+    height: 150px;
+}
+.page1
+{
+    text-align: center;
+}
+.p2
+{
+    text-align: center;
+    margin-top: 200px;
+}
+.p3
+{
+    text-align: center;
+    margin-top: 200px;
+}
+.p4
+{
+    text-align: center;
+    margin-top: 200px;
+}
+.h1
+{
+    color: rgb(28, 41, 32);
+}
+.container
+{
+    margin-left: 50px;
+    margin: auto;
+    border: 5px solid white;
+    height: 200px;
+    width:210px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.half
+{
+    margin:auto;
+    transition: transform 2s ease;
+}
+.container:hover .half{
+    width: 150px;
+    animation:movehalf 2s infinite;
+
+   
+
+}
+@keyframes movehalf{
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(45deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+         }
+}
+.halfv
+{
+    margin:auto;
+    margin-left:0px;
+}
+.container:hover .halfv{
+    width: 150px;
+    animation:movehalfv 2s infinite;
+
+}
+@keyframes movehalfv{
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(45deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+         }
+}
+.fun,.food
+{
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+.contain{
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.login
+{
+    background-color: rgb(218,41,28);
+    border-radius: 50%;
+    text-decoration: none;
+}

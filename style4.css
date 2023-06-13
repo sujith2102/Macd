@@ -1,0 +1,14 @@
+p
+{
+    text-align: centre;
+    font-size: 15px;
+}
+.sel
+{
+    display: flex;
+position: sticky;
+top: 0;
+justify-content: space-evenly;
+    background-color: rgb(255, 179, 0);
+    text-decoration: none;
+}

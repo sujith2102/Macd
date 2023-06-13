@@ -1,0 +1,41 @@
+h1{
+    font-size: 50px;
+}
+.container
+{
+    border: 5px solid black;
+    height: 500px;
+}
+.container{
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        width: 1000px;
+        height: 320px;
+        border: 5px solid white;
+    }
+    .contain{
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        width: 1000px;
+        height: 350px;
+        border: 5px solid white;
+    }
+    .containe{
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        width: 1000px;
+        height: 350px;
+        border: 5px solid white;
+    }
+    .sel
+{
+    display: flex;
+position: sticky;
+top: 0;
+justify-content: space-evenly;
+    background-color: rgb(255, 179, 0);
+    text-decoration: none;
+}
